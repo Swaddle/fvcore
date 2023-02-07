@@ -24,14 +24,14 @@ buildPythonPackage rec {
 
   propagatedBuildInputs = [
     portalocker
-    tqdm 
+    tqdm
   ];
 
   # tests depend on other packages like torch
   doCheck = false;
-  
+
   pythonImportsCheck = [ 
-    "iopath" 
+    "iopath"
   ];
 
   meta = with lib; {

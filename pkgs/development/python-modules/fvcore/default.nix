@@ -6,16 +6,16 @@
 , pytestCheckHook
 , huggingface-hub
 , iopath
-, numpy 
-, pillow 
+, numpy
+, pillow
 , pyyaml
 , shapely
 , tabulate
-, termcolor 
+, termcolor
 , torch
 , torchvision
 , tqdm
-, yacs 
+, yacs
 }:
 
 buildPythonPackage rec {
