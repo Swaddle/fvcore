@@ -3656,6 +3656,8 @@ self: super: with self; {
 
   fuzzywuzzy = callPackage ../development/python-modules/fuzzywuzzy { };
 
+  fvcore = callPackage ../development/python-modules/fvcore {};
+  
   fvs = callPackage ../development/python-modules/fvs { };
 
   fx2 = callPackage ../development/python-modules/fx2 { };
@@ -4695,6 +4697,8 @@ self: super: with self; {
   iocapture = callPackage ../development/python-modules/iocapture { };
 
   ionhash = callPackage ../development/python-modules/ionhash { };
+
+  iopath = callPackage ../development/python-modules/iopath { };
 
   iotawattpy = callPackage ../development/python-modules/iotawattpy { };
 
