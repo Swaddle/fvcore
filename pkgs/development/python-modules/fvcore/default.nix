@@ -21,7 +21,7 @@
 buildPythonPackage rec {
   pname = "fvcore";
   disabled = pythonOlder "3.6";
-  version = "6bde555";
+  version = "0.1.5";
 
   src = fetchFromGitHub {
     owner = "facebookresearch";
