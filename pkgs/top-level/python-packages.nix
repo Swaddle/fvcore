@@ -3657,7 +3657,7 @@ self: super: with self; {
   fuzzywuzzy = callPackage ../development/python-modules/fuzzywuzzy { };
 
   fvcore = callPackage ../development/python-modules/fvcore {};
-  
+
   fvs = callPackage ../development/python-modules/fvs { };
 
   fx2 = callPackage ../development/python-modules/fx2 { };

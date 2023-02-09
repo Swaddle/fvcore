@@ -30,7 +30,7 @@ buildPythonPackage rec {
   # tests depend on other packages like torch
   doCheck = false;
 
-  pythonImportsCheck = [ 
+  pythonImportsCheck = [
     "iopath"
   ];
 

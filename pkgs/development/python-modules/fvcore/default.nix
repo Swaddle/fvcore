@@ -32,28 +32,28 @@ buildPythonPackage rec {
 
   nativeBuildInputs = [
     iopath
-    numpy 
+    numpy
     pillow
-    pyyaml 
+    pyyaml
     tabulate
     termcolor
     tqdm
-    yacs 
+    yacs
   ];
- 
+
   propagatedBuildInputs = [
     torch
     shapely
   ];
 
-  nativeCheckInputs = [ 
-    pytestCheckHook 
+  nativeCheckInputs = [
+    pytestCheckHook
   ];
 
-  pytestFlagsArray = [ 
-    "tests" 
+  pytestFlagsArray = [
+    "tests"
   ];
-  
+
   pythonImportsCheck = [
     "fvcore"
     "fvcore.nn"
