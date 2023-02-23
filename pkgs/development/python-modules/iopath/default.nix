@@ -5,9 +5,7 @@
 , pythonOlder
 , python
 , portalocker
-, termcolor
 , tqdm
-, typing-extensions
 }:
 
 buildPythonPackage rec {
@@ -30,7 +28,7 @@ buildPythonPackage rec {
   # tests depend on other packages like torch
   doCheck = false;
 
-  pythonImportsCheck = [
+  pythonImportsCheck = [ 
     "iopath"
   ];
 

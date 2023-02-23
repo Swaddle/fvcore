@@ -4,7 +4,6 @@
 , fetchFromGitHub
 , pythonOlder
 , pytestCheckHook
-, huggingface-hub
 , iopath
 , numpy
 , pillow
@@ -26,7 +25,7 @@ buildPythonPackage rec {
   src = fetchFromGitHub {
     owner = "facebookresearch";
     repo = "fvcore";
-    rev = version;
+    rev = "6bde555";
     sha256 = "1vz9qif5iaxhwks5mhg9lrfr16aj5kb108dgphhcv0iq4nla2wsa";
   };
 
