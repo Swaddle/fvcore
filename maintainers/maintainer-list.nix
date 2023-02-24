@@ -14152,6 +14152,12 @@
     githubId = 36695359;
     name = "Vasyl Solovei";
   };
+  swaddle = {
+    email = "meswaddle@gmail.com";
+    github = "swaddle";
+    githubId = 5742422;
+    name = "Fennecs Swaddle"
+  };
   swarren83 = {
     email = "shawn.w.warren@gmail.com";
     github = "swarren83";

@@ -59,7 +59,7 @@ buildPythonPackage rec {
   ];
 
   meta = with lib; {
-    description = "Collection of common code that's shared among different research projects in FAIR computer vision team.";
+    description = "Collection of common code that's shared among different research projects in FAIR computer vision team";
     homepage = "https://github.com/facebookresearch/fvcore";
     license = licenses.asl20;
     maintainers = with maintainers; [ swaddle ];
